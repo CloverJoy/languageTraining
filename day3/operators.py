@@ -19,3 +19,6 @@ print(int(9.8) == 10)
 hours = int(input('enter hours: '))
 rate = int(input('enter rate: '))
 print('Your weekly earning is ', hours*rate)
+
+seconds = int(input('enter how many years you live ?'))
+print('You already live for ', seconds * 365 * 24 * 60 * 60, ' seconds')
