@@ -1,4 +1,5 @@
 # lambda function / anon func / HOF
+from collections import deque
 items = [
     ("prod1", 1033),
     ("prod2", 112),
@@ -28,3 +29,10 @@ print(filtered)
 
 zipped = list(zip(prices, filtered))
 print(zipped)
+
+queue = deque([])
+queue.append('a')
+queue.append('b')
+queue.append('c')
+queue.popleft()
+print(queue)
