@@ -22,6 +22,7 @@ def most_char(sentence):
             highest = tracker[key]
             result = key
     # elegant with sort and lambda
+    # sort bisa ada key buat specify value yg mana
     tracker_sorted = sorted(
         tracker.items(),
         key=lambda kv: kv[1],
