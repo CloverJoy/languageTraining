@@ -1,8 +1,8 @@
-pragma solidity >=0.5.11 <0.7.0;
+pragma solidity ^0.8.1;
 
 contract ExceptionExample {
 
- mapping(address => uint64) public balanceReceived;
+    mapping(address => uint64) public balanceReceived;
 
      function receiveMoney() public payable {
         assert(balanceReceived[msg.sender] + uint64(msg.value) >= balanceReceived[msg.sender]);
