@@ -29,7 +29,9 @@ const y:string = "hello world";
  */
 let z:any;
 z = 41;
-z = "abc"; // (6) oh no! This isn't good
+z = "abc"; // (6) oh no! This isn't good. If any, it's not checking
+// like usual Javascript.
+// strongest typing is :never. cannot fill anything
 
 /**
  * If we look at the type of z, it's `any`. This is the most flexible type
