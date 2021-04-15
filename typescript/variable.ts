@@ -44,4 +44,8 @@ z = "abc"; // (6) oh no! This isn't good. If any, it's not checking
  */
 let zz: number;
 zz = 41;
+zz = 42;
 // zz = "abc"; // 🚨 ERROR Type '"abc"' is not assignable to type 'number'.
+
+// Array 
+
