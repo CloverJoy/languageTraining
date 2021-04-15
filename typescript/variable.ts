@@ -48,4 +48,6 @@ zz = 42;
 // zz = "abc"; // 🚨 ERROR Type '"abc"' is not assignable to type 'number'.
 
 // Array 
+let example: [number, string];
+example = [20, "hello"];
 
