@@ -51,3 +51,15 @@ zz = 42;
 let example: [number, string];
 example = [20, "hello"];
 
+interface newObj {
+  thisIsInt: number;
+  thisIsOptional: any;
+}
+
+newObj = {
+  thisIsInt: 29,
+  thisIsOptional: false,
+}
+
+console.log(newObj);
+
