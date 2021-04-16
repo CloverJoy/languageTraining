@@ -56,10 +56,11 @@ interface newObj {
   thisIsOptional: any;
 }
 
-newObj = {
+let newObj = {
   thisIsInt: 29,
   thisIsOptional: false,
 }
 
 console.log(newObj);
+
 
