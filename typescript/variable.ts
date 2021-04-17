@@ -53,7 +53,7 @@ example = [20, "hello"];
 
 interface newObj {
   thisIsInt: number;
-  thisIsOptional: any;
+  thisIsOptional?: any;
 }
 
 let newObj = {
