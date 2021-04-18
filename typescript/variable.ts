@@ -56,7 +56,7 @@ interface newObj {
   thisIsOptional?: any;
 }
 
-let newObj = {
+let objOne: newObj = {
   thisIsInt: 29,
   thisIsOptional: false,
 }
@@ -65,6 +65,11 @@ interface anotherObj {
   mandatoryString: string;
   optionalString?: string;
   anything: any;
+}
+
+let objectTwo: anotherObj =  {
+  mandatoryString: 'Hello',
+  anything: true,
 }
 
 console.log(newObj);
