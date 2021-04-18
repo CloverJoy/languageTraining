@@ -61,6 +61,12 @@ let newObj = {
   thisIsOptional: false,
 }
 
+interface anotherObj {
+  mandatoryString: string;
+  optionalString?: string;
+  anything: any;
+}
+
 console.log(newObj);
 
 
