@@ -47,7 +47,7 @@ zz = 41;
 zz = 42;
 // zz = "abc"; // 🚨 ERROR Type '"abc"' is not assignable to type 'number'.
 
-// Array 
+// Array
 let example: [number, string];
 example = [20, "hello"];
 
@@ -72,7 +72,6 @@ let objectTwo: anotherObj =  {
   anything: true,
 }
 
-console.log(newObj);
 console.log(objectTwo);
 
 
