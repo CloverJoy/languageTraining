@@ -73,5 +73,6 @@ let objectTwo: anotherObj =  {
 }
 
 console.log(objectTwo);
+console.log(objOne);
 
 
