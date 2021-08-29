@@ -1,2 +1,2 @@
-let firstNum:number = 12;
-console.log(firstNum);
+let theNum:number = 12;
+console.log(theNum);
